@@ -131,7 +131,5 @@ rotor3.st_generator()
 
 reflector = Reflector()
 
-#%%
 enigma_gary = Enigma([rotor1, rotor2, rotor3], reflector,start_pos=[1,2,3])
-enigma_gary.encrypt('ggsscaav')
-enigma_gary.decrypt('zqombjnt')
+enigma_gary.encrypt('hello')
